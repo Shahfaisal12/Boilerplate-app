@@ -1,0 +1,174 @@
+
+/* ////////////////////  Font Style //////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* ::placeholder {
+    color: #6D7580;
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: #6D7580;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #6D7580;
+  } */
+  
+  /* ////////////////////// SCROLL COLOR ///////////////////////////// */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  
+    overflow: auto;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    overflow: auto;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #EC008C 4.81%, #FC6767 100%);
+    border-radius: 6px;
+  
+    border: transparent 5px solid;
+    overflow: auto;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  
+    transform: scale(1.5);
+    border-left: 10px #65CAF5 solid;
+  }
+  
+  /* /////////////////////////////////// TOOGLER ICON COLOR CHANGE COLOR ////////////////////////// */
+  
+  .navbar .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none !important;
+    position: relative;
+    border-bottom: 2px solid #ffffff;
+    transition: all 300ms linear;
+  }
+  
+  .navbar .navbar-toggler-icon:after,
+  .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 2px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    transition: all 300ms linear;
+  }
+  
+  .navbar .navbar-toggler-icon:after {
+    top: 8px;
+  }
+  
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg) !important;
+  }
+  
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg) !important;
+  }
+  
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent !important;
+  }
+  
+  .navbar-toggler {
+    background-color: transparent !important;
+    padding: 10px !important;
+  }
+  
+  .offcanvas {
+    backdrop-filter: blur(10px) !important;
+    background-color: #00000080 !important;
+  }
+
+/* /////////////////////////////////// TOOGLER ICON COLOR CHANGE COLOR ////////////////////////// */
+
+.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none !important;
+  position: relative;
+  border-bottom: 2px solid #ffffff;
+  transition: all 300ms linear;
+}
+
+.navbar .navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
+  width: 24px;
+  position: absolute;
+  height: 2px;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 2;
+  transition: all 300ms linear;
+}
+
+.navbar .navbar-toggler-icon:after {
+  top: 8px;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(45deg) !important;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  transform: translateY(8px) rotate(-45deg) !important;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  border-color: transparent !important;
+}
+
+.navbar-toggler {
+  background-color: var(--header-clr) !important;
+  padding: 10px !important;
+}
+
+.bg-offcanvas {
+  backdrop-filter: blur(10px) !important;
+  background-color: #00000080 !important;
+ 
+}
+
+.navbar a, .bg-offcanvas a{
+  color: #ffffff !important;
+}
+
+/* ////////////////////////////    HEADER SECTION ////////////////////////// */
+
+
+
+
+
+
+
+
+/* ///////////////////////////////  Footer section  ////////////////////////*/
+
+.Footer-Section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
