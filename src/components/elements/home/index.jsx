@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const index = () => {
     return (
         <div className='Hero-Section'>
             <div className="container">
@@ -10,4 +10,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default index

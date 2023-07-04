@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../../components/elements/home/Hero'
+import Hero from '../../components/elements/home/'
 
 const index = () => {
   return (
